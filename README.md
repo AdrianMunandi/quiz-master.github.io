@@ -1,6 +1,6 @@
 # Quiz Website
 
-A Quiz Website is a web application that allows users to participate in quizzes and test their knowledge on various subjects.
+This Quiz Website is a web application that allows users to participate in quizzes and test their knowledge on Front-end Languages.
 
 # Usage
 To use the Quiz Website, follow these steps:
@@ -19,6 +19,7 @@ HTML
 CSS
 JavaScript
 Fetch API for making HTTP requests to the server
+Database json
 
 # License
 MIT
