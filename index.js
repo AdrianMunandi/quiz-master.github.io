@@ -41,12 +41,32 @@ function submitAnswers() {
   }
 }
 
-// Display quiz result
+// Display quiz result and congratulations message
 function showResult() {
   const resultElement = document.getElementById('result');
-  resultElement.textContent = `You answered ${score} out of ${totalQuestions} questions correctly.`;
+  const congratulationsElement = document.getElementById('congratulations');
+
+  const scorePercentage = (score / totalQuestions) * 100;
+  const resultText = `You answered ${score} out of ${totalQuestions} questions correctly. (${scorePercentage}%)`;
+
+  resultElement.textContent = resultText;
   resultElement.style.display = 'block';
+
+  congratulationsElement.textContent = getCongratulationsMessage(scorePercentage);
+  congratulationsElement.style.display = 'block';
 }
+
+// Get congratulations message based on the score percentage
+function getCongratulationsMessage(scorePercentage) {
+  if (scorePercentage === 100) {
+    return 'Congratulations! You scored a perfect 100%!';
+  } else if (scorePercentage >= 70) {
+    return 'Congratulations! You passed the quiz.';
+  } else {
+    return 'Good effort! Keep practicing to improve your score.';
+  }
+}
+
 
 // Fetch questions and start the quiz
 let questions = [];
