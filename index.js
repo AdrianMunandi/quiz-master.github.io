@@ -67,6 +67,22 @@ function getCongratulationsMessage(scorePercentage) {
   }
 }
 
+// Reset quiz and go back to the first question
+function resetQuiz() {
+  currentQuestionIndex = 0;
+  score = 0;
+  displayQuestion(questions[currentQuestionIndex]);
+
+  const resultElement = document.getElementById('result');
+  const congratulationsElement = document.getElementById('congratulations');
+  const submitButton = document.getElementById('submit');
+  const retryButton = document.getElementById('retry');
+
+  resultElement.style.display = 'none';
+  congratulationsElement.style.display = 'none';
+  submitButton.style.display = 'inline-block';
+  retryButton.style.display = 'none';
+}
 
 // Fetch questions and start the quiz
 let questions = [];
