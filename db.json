@@ -1,0 +1,105 @@
+{
+  "questions": [
+    {
+      "question": "What does HTML stand for?",
+      "answers": {
+        "a": "A) Hyper Text Markup Language",
+        "b": "B) High Text Making Language",
+        "c": "C) Hyperlink and Text Markup Language",
+        "d": "D) Home Tool Markup Language"
+      },
+      "correct": "a"
+    },
+    {
+      "question": "Which tag is used to define an unordered list in HTML?",
+      "answers": {
+        "a": "A) <ol>",
+        "b": "B) <ul>",
+        "c": "C) <li>",
+        "d": "D) <list>"
+      },
+      "correct": "b"
+    },
+    {
+      "question": "Which property is used to change the font color in CSS?",
+      "answers": {
+        "a": "A) text-decoration",
+        "b": "B) font-family",
+        "c": "C) font-size",
+        "d": "D) color"
+      },
+      "correct": "d"
+    },
+    {
+      "question": "What does CSS stand for?",
+      "answers": {
+        "a": "A) Creative Style Sheets",
+        "b": "B) Cascading Style Sheets",
+        "c": "C) Colorful Style Sheets",
+        "d": "D) Computer Style Sheets"
+      },
+      "correct": "b"
+    },
+    {
+      "question": "Which attribute is used to specify an external JavaScript file?",
+      "answers": {
+        "a": "A) src",
+        "b": "B) href",
+        "c": "C) rel",
+        "d": "D) type"
+      },
+      "correct": "a"
+    },
+    {
+      "question": "What is the correct way to define a JavaScript function?",
+      "answers": {
+        "a": "A) function = myFunction()",
+        "b": "B) function myFunction()",
+        "c": "C) myFunction() = function",
+        "d": "D) myFunction()"
+      },
+      "correct": "b"
+    },
+    {
+      "question": "Which event occurs when the user clicks on an HTML element?",
+      "answers": {
+        "a": "A) onchange",
+        "b": "B) onmouseover",
+        "c": "C) onclick",
+        "d": "D) onkeydown"
+      },
+      "correct": "c"
+    },
+    {
+      "question": "Which CSS property is used to control the spacing between elements?",
+      "answers": {
+        "a": "A) margin",
+        "b": "B) padding",
+        "c": "C) border",
+        "d": "D) width"
+      },
+      "correct": "a"
+    },
+    {
+      "question": "Which HTML attribute is used to define inline styles?",
+      "answers": {
+        "a": "A) class",
+        "b": "B) id",
+        "c": "C) style",
+        "d": "D) script"
+      },
+      "correct": "c"
+    },
+    {
+      "question": "Which JavaScript keyword is used to declare a variable?",
+      "answers": {
+        "a": "A) new",
+        "b": "B) var",
+        "c": "C) this",
+        "d": "D) function"
+      },
+      "correct": "b"
+    }
+  ]
+}
+ 
